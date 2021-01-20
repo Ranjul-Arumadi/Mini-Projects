@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-J52UTRH</Machine>
+    <WindowsUser>bibi</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>d1151d80-4387-11eb-a454-f56a56222d6f</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DBDE4D3B8E08C56C1AEE9E807F87CCFBF1721E5221E22681A9037E33B8771913</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp47420b_1.0.0.0_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp47420b_h35559jr9hy9m!io.cordova.myapp47420b</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp47420b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-22T13:42:12.662</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2020-12-22T13:42:06.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2020-12-21T12:27:10.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2020-12-21T12:27:10.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-21T12:27:10.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-12-22T13:42:12.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2020-12-22T13:42:06.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2020-12-22T13:42:06.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2020-12-22T13:42:06.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2020-12-22T13:42:06.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2020-12-21T12:27:10.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2020-12-22T13:42:06.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2020-12-22T13:42:06.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2020-12-21T12:27:10.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+      <Modified>2020-12-21T12:27:10.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2020-12-22T13:37:46.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2020-12-21T12:27:10.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2020-12-21T12:27:10.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\views\index.html">
+      <PackagePath>www\views\index.html</PackagePath>
+      <Modified>2020-12-22T13:42:06.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bibi\source\repos\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\release\x64\win10\ilc\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2020-12-21T12:27:09.733</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

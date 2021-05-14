@@ -1,4 +1,5 @@
-This is was submission for the #CoronaSafe Engineering Fellowship Test Problem
+This is was my submission for the -
+#CoronaSafe Engineering Fellowship Test Problem
 
 Objective: implement a command-line (CLI) program that lets you manage your todos.
 

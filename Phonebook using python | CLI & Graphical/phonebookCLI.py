@@ -1,9 +1,10 @@
-#Ranjuls Phonebook App
+'''
+Name of application: PhoneBook [CLI version]
+Language used: python
+Author: Ranjul Arumadi
+'''
 phonebook={}
 inpt = 0
-
-
-
 
 def addNumber():
     stop=1
@@ -23,14 +24,21 @@ def addNumber():
                 print('\nEnter number only!')
                 number=int(input('Enter number: '))
                 phonebook[name]=number
-        stop=int(input('\nEnter 1 - continue 0 - stop :'))
+        try:        
+            stop=int(input('\nEnter 1 - continue 0 - stop :'))
+        except ValueError:
+            print('Error in input!')
+            stop=int(input('\nEnter 1 - continue 0 - stop :'))
     
     
     
 def deleteNumber():
     name=input('\nEnter name: ')
     if name in phonebook:
+        print(f'\nDeleted {name} - {phonebook[name]}')
         phonebook.pop(name)
+    else:
+        print(f'{name} does not exist in phonebook')
 
 
 def displayNumber():
@@ -44,7 +52,11 @@ def displayNumber():
 
 
 while inpt!= -1 :  
-    inpt = int(input('\n\n Phonebook \n\n 1 - Add number \n 2 - Delete Number \n 3 - View Numbers \n 4 - Exit\n'))
+    try: 
+        inpt = int(input('\n\n Phonebook \n\n 1 - Add number \n 2 - Delete Number \n 3 - View Numbers \n 4 - Exit\n'))
+    except ValueError:
+            print('Error in input!')
+            inpt = int(input('\n\n Phonebook \n\n 1 - Add number \n 2 - Delete Number \n 3 - View Numbers \n 4 - Exit\n'))
     if inpt==1:
         addNumber()
     elif inpt == 2:

@@ -1,4 +1,4 @@
-#ClassRoom Bot for Discord
+#Ranjuls ClassRoom Bot
 import os
 import discord
 from datetime import datetime
@@ -32,12 +32,9 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-  print(f'We have logged in as {client}')
+  print('We have logged in as {}'.format(client))
 
-tz_IN = pytz.timezone('Asia/Kolkata') 
-datetime_IN = datetime.now(tz_IN)
-print(f'Hour : {datetime_IN.hour}')
-print(f'Minute : {datetime_IN.minute}')
+
 @client.event 
 async def on_message(message):
   if message.author == client.user:
@@ -45,32 +42,36 @@ async def on_message(message):
   if message.content.startswith('--help'):
     await message.channel.send('1. -t : Tells details about present, coming period. \n2. -links : Displays links of online classes\n3. -quote : Displays a random quote\n\nBot built by Ranjul | Bot under testing | Bot has bugs :_) ')
   if message.content.startswith('-t'):
+    tz_IN = pytz.timezone('Asia/Kolkata') 
+    datetime_IN = datetime.now(tz_IN)
+    print(f'Hour : {datetime_IN.hour}')
+    print(f'Minute : {datetime_IN.minute}')
     #P1
-    if (datetime_IN.hour==8 and datetime_IN.minute<59) or (datetime_IN.hour==9 and datetime_IN.minute<=10):
+    if (datetime_IN.hour==8 and datetime_IN.minute<59) or (datetime_IN.hour==9 and datetime_IN.minute<=19):
       print('P1')
       await message.channel.send('This is period 1, period 2 starts at 9:20')
     #P2
-    elif (datetime_IN.hour==9 and datetime_IN.minute<59):
+    elif (datetime_IN.hour==9 and datetime_IN.minute<59) or (datetime_IN.hour==10 and datetime_IN.minute<=9):
       print('P2')
       await message.channel.send('This is period 2, period 3 starts at 10:10')
     #P3
-    elif (datetime_IN.hour==10 and datetime_IN.minute<50):
+    elif (datetime_IN.hour==10 and datetime_IN.minute<=59):
       print('P3')
       await message.channel.send('This is period 3, period 4 starts at 11:00')
     #P4
-    elif (datetime_IN.hour==11 and datetime_IN.minute<49):
+    elif (datetime_IN.hour==11 and datetime_IN.minute<=49):
       print('P4')
       await message.channel.send('This is period 4, period 5 starts at 11:50')
     #P5
-    elif (datetime_IN.hour==11 and datetime_IN.minute<59) or (datetime_IN.hour==12 and datetime_IN.minute<=30):
+    elif (datetime_IN.hour==11 and datetime_IN.minute<59) or (datetime_IN.hour==12 and datetime_IN.minute<=39):
       print('P5')
       await message.channel.send('This is period 5, period 6 starts at 12:40')
     #P6
     elif (datetime_IN.hour==12 and datetime_IN.minute>=40) or (datetime_IN.hour==13 and datetime_IN.minute<=20):
       print('P6')
-      await message.channel.send('This is the last period :)')
+      await message.channel.send('This is the last period :) , period ends at 1:20')
     #else:
-      await message.channel.send('There are no active classes now')       
+      #await message.channel.send('There are no active classes now')       
   
 
   if message.content.startswith('-links'):

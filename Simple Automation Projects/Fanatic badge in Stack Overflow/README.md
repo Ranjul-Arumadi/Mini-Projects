@@ -14,7 +14,7 @@ Windows Task scheduler is used to execute the .bat file daily when the user logs
 ### Setup
 
 1. Download the repo.
-2. Edit the two files as instrcted in the files.
+2. Edit the two files as instructed in the files.
 3. Open Start.
 4. Search for Task Scheduler and click the top result to open the app.
 5. Right-click the "Task Scheduler Library" branch and select the New Folder option.

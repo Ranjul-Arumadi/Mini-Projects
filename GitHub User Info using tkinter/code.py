@@ -37,7 +37,7 @@ root.title('Devnetics GitHub Aggregrator API')
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
-background_image = tk.PhotoImage(file='Devnetics.png')
+background_image = tk.PhotoImage(file='wallpaper.png')
 background_label = tk.Label(root, image=background_image)
 background_label.place(relwidth=1, relheight=1)
 

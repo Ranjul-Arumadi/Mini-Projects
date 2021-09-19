@@ -26,7 +26,7 @@ while registration>0:
     with webdriver.Chrome() as driver:
         
         wait = WebDriverWait(driver, 10)
-        URL = 'https://polls.mojolad.com/Registration/register.php' 
+        URL = 'enter website registration page url here' 
         try:
             driver.get(URL)
         except WebDriverException:

@@ -48,6 +48,7 @@ class TextEditor(EasyFrame):
             f=open(fi,'w')
             f.write(new)
             f.close()
+            self.messageBox(title = "Saved", message = "File saved successfully!")
         except FileNotFoundError:
             self.messageBox(title = "ERROR", message = "Enter file name!")
 
